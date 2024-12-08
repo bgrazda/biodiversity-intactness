@@ -1,9 +1,8 @@
 # Biodiversity Intactness Index (BII) of Phoenix, Arizona from 2017-2020
 
+![images/mcdowell.jpeg](images/mcdowell.jpeg)
+
 ## About: 
-
-
-![images/Tonto-National-Forest-Arizona.jpg](images/Tonto-National-Forest-Arizona.jpg)
 
 - Combine `geopandas` geodataframe with `xarray` raster data to visualize biodiversity loss
 - Practice using STAC collection search and wrangling `xarray` dataframe
@@ -19,7 +18,7 @@ biodiversity-intactness
 │   ├──tl_2020_04_cousub.cpg
 │   ├──tl_2020_04_cousub.dbf
 │   ├──tl_2020_04_cousub.prj 
-│   ├──tl_2020_04_cousub.shp  # Shapefile for mapping Thomas file
+│   ├──tl_2020_04_cousub.shp  # Shapefile for mapping Arizona subdivisions
 │   ├──tl_2020_04_cousub.shp.ea.iso.xml
 │   ├──tl_2020_04_cousub.shp.iso.xml
 │   ├──tl_2020_04_cousub.shx   
@@ -30,7 +29,7 @@ biodiversity-intactness
 ├── .gitignore  
 │
 ├── images/                       
-│   ├── Tonto-National-Forest-Arizona.jpg  # Image used in the README
+│   ├── mcdowell.jpg  # Image used in the README
 │                
 ```
 
@@ -42,9 +41,9 @@ The Phoenix shapefiles  data can be directly accessed by using this [link](https
 
 ## References
 
-Galaz García, Carmen. Assignment4 – EDS 220 - Working with Environmental Datasets. (n.d.). https://meds-eds-220.github.io/MEDS-eds-220-course/assignments/final-project.html
+Galaz García, Carmen. Final Project – EDS 220 - Working with Environmental Datasets. (n.d.). https://meds-eds-220.github.io/MEDS-eds-220-course/assignments/final-project.html
 
 Microsoft Planetary Computer. (n.d.). https://planetarycomputer.microsoft.com/dataset/landsat-c2-l2
 
-Publisher CAL FIRE. (2024, May 14). State of California - California Fire Perimeters (all). Catalog. https://catalog.data.gov/dataset/california-fire-perimeters-all-b3436 
+2020 Tiger/line® Shapefiles: County+Subdivisions. United States Census Bureau. (n.d.). https://www.census.gov/cgi-bin/geo/shapefiles/index.php?year=2020&layergroup=County%2BSubdivisions 
 
