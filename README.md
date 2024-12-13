@@ -2,7 +2,10 @@
 
 ![images/mcdowell.jpeg](images/mcdowell.jpeg)
 
-## About: 
+## About:
+In recent years, the Phoenix metropolitan area has experienced an increase in land use developments. This urban sprawl has had natural implications on biodiversity and habitat disturbance in the Phoenix County subdivision. This notebook aims to analyze the loss of biodiversity as a result of this phenomenon from the years 2017 to 2020 using the Biodiversity Intactness Index (BII). BII measures change in biodiversity based on species abundance.
+
+## Purpose: 
 
 - Combine `geopandas` geodataframe with `xarray` raster data to visualize biodiversity loss
 - Practice using STAC collection search and wrangling `xarray` dataframe
@@ -23,14 +26,13 @@ biodiversity-intactness
 │   ├──tl_2020_04_cousub.shp.iso.xml
 │   ├──tl_2020_04_cousub.shx   
 │
-├── bii.ipynb # Jupyter notebook for analysis      
-├── README.md  
-├── LICENSE                      
-├── .gitignore  
-│
 ├── images/                       
 │   ├── mcdowell.jpg  # Image used in the README
-│                
+│
+├── bii.ipynb # Jupyter notebook for analysis      
+├── README.md                        
+├── .gitignore  
+                
 ```
 
 ## Data
